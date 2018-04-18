@@ -491,8 +491,10 @@
                 Instance.ShowThenHide();
                 m_allPages.Add(typeof(T).ToString(), Instance);
             }
+            else
+                m_allPages[typeof(T).ToString()].ShowThenHide();
 
-            return (T) m_allPages[typeof(T).ToString()];
+            return (T)m_allPages[typeof(T).ToString()];
         }
 
         /// <summary>
