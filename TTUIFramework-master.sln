@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TTUIFramework-master", "TTUIFramework-master.csproj", "{E2BF47C8-EBE2-4446-FD85-A3432443251D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TTUIFramework-master.Editor.Plugins", "TTUIFramework-master.Editor.Plugins.csproj", "{222162EB-C9C6-2C48-6B0F-86395B8A6AB3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E2BF47C8-EBE2-4446-FD85-A3432443251D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2BF47C8-EBE2-4446-FD85-A3432443251D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2BF47C8-EBE2-4446-FD85-A3432443251D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2BF47C8-EBE2-4446-FD85-A3432443251D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{222162EB-C9C6-2C48-6B0F-86395B8A6AB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{222162EB-C9C6-2C48-6B0F-86395B8A6AB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{222162EB-C9C6-2C48-6B0F-86395B8A6AB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{222162EB-C9C6-2C48-6B0F-86395B8A6AB3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
