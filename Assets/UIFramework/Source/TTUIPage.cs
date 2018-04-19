@@ -177,7 +177,7 @@
             PopNode(this);
         }
 
-        protected void ShowThenHide()
+        protected void GetPageShow()
         {
             //1:instance UI
             if (this.gameObject == null && string.IsNullOrEmpty(uiPath) == false)
@@ -213,7 +213,7 @@
             Active();
 
             //:hide ui component.
-            Hide();
+            //Hide();
 
             //:popup this node to top if need back.
             PopNode(this);
@@ -488,11 +488,11 @@
             if (!m_allPages.ContainsKey(typeof(T).ToString()))
             {
                 T Instance = new T();
-                Instance.ShowThenHide();
+                Instance.GetPageShow();
                 m_allPages.Add(typeof(T).ToString(), Instance);
             }
             else
-                m_allPages[typeof(T).ToString()].ShowThenHide();
+                m_allPages[typeof(T).ToString()].GetPageShow();
 
             return (T)m_allPages[typeof(T).ToString()];
         }
